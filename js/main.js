@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     console.log("🚀 Shopora Frontend Loaded. Attempting to fetch products...");
     
     // 1. Define the location of your Python Backend
-    const API_URL = 'http://127.0.0.1:8000/api/products';
+    const API_URL = 'https://shopora-v1.onrender.com/api/products';
 
     // 2. Reach out to the server
     fetch(API_URL)
