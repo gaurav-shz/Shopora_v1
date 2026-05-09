@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Products – Shopora</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/products.css"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo" onclick="window.location='../index.html'" style="cursor:pointer">Sho<span>pora</span></div>
+    <div class="search-wrap">
+      <input type="text" id="searchInput" placeholder="Search products, brands…"/>
+      <button><i class='bx bx-search'></i></button>
+    </div>
+    <div class="nav-right">
+      <a href="login.html" class="icon-btn"><i class='bx bx-user'></i></a>
+      <a href="#" class="icon-btn"><i class='bx bx-heart'></i></a>
+      <a href="cart.html" class="icon-btn">
+        <i class='bx bx-cart'></i>
+        <span class="badge" id="cartCount">0</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="page-header-inner">
+      <div>
+        <h1 class="page-title">All Products</h1>
+        <p class="page-sub" id="resultCount">Showing all products</p>
+      </div>
+      <div class="sort-row">
+        <span class="sort-label">Sort by:</span>
+        <select class="sort-select" id="sortSelect">
+          <option value="default">Featured</option>
+          <option value="price-asc">Price: Low to High</option>
+          <option value="price-desc">Price: High to Low</option>
+          <option value="rating">Top Rated</option>
+          <option value="discount">Biggest Discount</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN LAYOUT -->
+  <div class="pl-layout">
+
+    <!-- SIDEBAR FILTERS -->
+    <aside class="pl-sidebar">
+      <div class="filter-section">
+        <h3 class="filter-title">Categories</h3>
+        <div class="filter-list" id="catFilter"></div>
+      </div>
+
+      <div class="filter-section">
+        <h3 class="filter-title">Price Range</h3>
+        <div class="price-range">
+          <div class="price-inputs">
+            <input type="number" id="minPrice" placeholder="Min ₹" class="price-input"/>
+            <span>—</span>
+            <input type="number" id="maxPrice" placeholder="Max ₹" class="price-input"/>
+          </div>
+          <button class="apply-price btn-primary" style="width:100%;justify-content:center;margin-top:10px" onclick="applyPriceFilter()">
+            Apply
+          </button>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <h3 class="filter-title">Platform</h3>
+        <div class="filter-list" id="platFilter"></div>
+      </div>
+
+      <div class="filter-section">
+        <h3 class="filter-title">Rating</h3>
+        <div class="rating-filter">
+          <div class="rat-opt active" onclick="filterRating(0,this)">All Ratings</div>
+          <div class="rat-opt" onclick="filterRating(4.5,this)">★ 4.5 & above</div>
+          <div class="rat-opt" onclick="filterRating(4,this)">★ 4.0 & above</div>
+          <div class="rat-opt" onclick="filterRating(3.5,this)">★ 3.5 & above</div>
+        </div>
+      </div>
+
+      <button class="clear-filters" onclick="clearFilters()">
+        <i class='bx bx-x'></i> Clear All Filters
+      </button>
+    </aside>
+
+    <!-- PRODUCT GRID -->
+    <div class="pl-main">
+      <!-- ACTIVE FILTERS -->
+      <div class="active-filters" id="activeFilters"></div>
+
+      <!-- GRID -->
+      <div class="prod-grid" id="productsGrid"></div>
+
+      <!-- EMPTY STATE -->
+      <div class="empty-state" id="emptyState" style="display:none">
+        <div class="empty-icon">🔍</div>
+        <h3>No products found</h3>
+        <p>Try adjusting your filters or search term</p>
+        <button class="btn-primary" onclick="clearFilters()" style="margin-top:16px">Clear Filters</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer" style="margin-top:48px">
+    <div class="footer-bottom">
+      © 2025 Shopora. All rights reserved. &nbsp;|&nbsp;
+      <a href="#">Privacy</a> &nbsp;|&nbsp; <a href="#">Terms</a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/products.js"></script>
+</body>
+</html>

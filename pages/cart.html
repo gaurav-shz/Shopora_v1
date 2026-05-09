@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cart – Shopora</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/cart.css"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo" onclick="window.location='../index.html'" style="cursor:pointer">Sho<span>pora</span></div>
+    <div class="nav-right" style="margin-left:auto">
+      <a href="login.html" class="icon-btn"><i class='bx bx-user'></i></a>
+      <a href="cart.html"  class="icon-btn">
+        <i class='bx bx-cart'></i>
+        <span class="badge" id="cartCount">0</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <a href="../index.html">Home</a>
+    <i class='bx bx-chevron-right'></i>
+    <span>Shopping Cart</span>
+  </div>
+
+  <!-- CART LAYOUT -->
+  <div class="cart-layout">
+
+    <!-- LEFT: ITEMS -->
+    <div class="cart-items-col">
+      <div class="cart-header-row">
+        <h2 class="cart-title">Shopping Cart</h2>
+        <span class="cart-count-lbl" id="itemCount">0 items</span>
+      </div>
+
+      <!-- SELECT ALL -->
+      <div class="cart-select-all">
+        <label class="check-label">
+          <input type="checkbox" id="selectAll" onchange="toggleSelectAll(this)"/>
+          Select All
+        </label>
+        <button class="remove-selected" onclick="removeSelected()">
+          <i class='bx bx-trash'></i> Remove Selected
+        </button>
+      </div>
+
+      <!-- ITEMS LIST -->
+      <div id="cartItemsList"></div>
+
+      <!-- EMPTY -->
+      <div class="cart-empty" id="cartEmpty" style="display:none">
+        <div class="empty-icon">🛒</div>
+        <h3>Your cart is empty</h3>
+        <p>Looks like you haven't added anything yet</p>
+        <button class="btn-primary" onclick="window.location='products.html'" style="margin-top:20px">
+          <i class='bx bx-store'></i> Start Shopping
+        </button>
+      </div>
+    </div>
+
+    <!-- RIGHT: SUMMARY -->
+    <div class="cart-summary-col">
+      <div class="cart-summary">
+        <h3 class="summary-title">Order Summary</h3>
+
+        <div class="summary-rows" id="summaryRows"></div>
+
+        <div class="summary-divider"></div>
+
+        <div class="summary-coupon">
+          <input type="text" id="couponInput" placeholder="Enter coupon code" class="coupon-input"/>
+          <button class="coupon-btn" onclick="applyCoupon()">Apply</button>
+        </div>
+
+        <div class="summary-divider"></div>
+
+        <div class="summary-total-row">
+          <span>Total</span>
+          <span class="summary-total" id="summaryTotal">₹0</span>
+        </div>
+
+        <button class="checkout-btn" onclick="checkout()">
+          <i class='bx bx-lock-alt'></i> Proceed to Checkout
+        </button>
+
+        <div class="summary-trust">
+          <div class="str"><i class='bx bx-shield-quarter'></i> 100% Secure Checkout</div>
+          <div class="str"><i class='bx bx-undo'></i> Easy 7-Day Returns</div>
+          <div class="str"><i class='bx bx-package'></i> Free Delivery above ₹499</div>
+        </div>
+      </div>
+
+      <!-- PRICE COMPARE NUDGE -->
+      <div class="compare-nudge" id="compareNudge" style="display:none">
+        <div class="nudge-icon">💰</div>
+        <div>
+          <div class="nudge-title">Better price found!</div>
+          <div class="nudge-sub" id="nudgeText">Some items are cheaper elsewhere</div>
+        </div>
+        <button class="nudge-btn" onclick="window.location='products.html'">Compare</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- YOU MAY ALSO LIKE -->
+  <div class="section" style="max-width:1200px;margin:0 auto;padding:0 24px 48px">
+    <div class="section-head">
+      <h2 class="section-title">You May Also Like</h2>
+    </div>
+    <div class="prod-grid" id="suggestedGrid"></div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-bottom">
+      © 2025 Shopora. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/cart.js"></script>
+</body>
+</html>

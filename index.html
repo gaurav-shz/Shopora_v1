@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Shopora – Online Shopping for Electronics, Fashion, Grocery</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="light-theme">
+
+    <!-- TOPBAR (Subtle Light Gray) -->
+    <div class="topbar">
+        <span>🚀 Free delivery on orders above ₹499 | <b>10-min delivery</b> available in Delhi</span>
+        <div class="topbar-links">
+            <a href="#">Sell on Shopora</a>
+            <a href="#">Track Order</a>
+            <a href="#">Help</a>
+        </div>
+    </div>
+
+    <!-- NAVBAR (Amazon/Flipkart Style White) -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Sho<span>pora</span></div>
+
+            <div class="location-btn">
+                <i class='bx bx-map-pin'></i>
+                <div class="loc-text">
+                    <span class="loc-label">Deliver to</span>
+                    <span class="loc-val">Delhi 110001</span>
+                </div>
+            </div>
+
+            <div class="search-wrap">
+                <input type="text" id="searchInput" placeholder="Search for products, brands and more"/>
+                <button class="search-btn"><i class='bx bx-search'></i></button>
+            </div>
+
+            <div class="nav-right">
+                <div class="nav-item dropdown">
+                    <i class='bx bx-user'></i>
+                    <span>Login</span>
+                </div>
+                <div class="nav-item">
+                    <i class='bx bx-heart'></i>
+                    <span>Wishlist</span>
+                </div>
+                <a href="pages/cart.html" class="nav-item cart">
+                    <i class='bx bx-cart'></i>
+                    <span class="badge" id="cartCount">0</span>
+                    <span>Cart</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CATEGORY STRIP (White background, simple icons) -->
+    <div class="cat-strip" id="catStrip">
+        <!-- Will be populated by main.js -->
+    </div>
+
+    <!-- MAIN CONTENT WRAPPER -->
+    <main class="container">
+        
+        <!-- HERO CAROUSEL / BANNER -->
+        <section class="hero-banner">
+            <div class="hero-content">
+                <h1>Big Billion Savings <br><span>Up to 80% Off</span></h1>
+                <p>Compare prices across Amazon, Flipkart & more instantly.</p>
+                <button class="btn-primary">Shop Deals</button>
+            </div>
+            <div class="hero-image">
+                <!-- Placeholder for a clean product image -->
+                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium?wid=1000&fmt=p-jpg" alt="Hero">
+            </div>
+        </section>
+
+        <!-- TRENDING PRODUCTS (The Grid we connected to MongoDB) -->
+        <section class="section">
+            <div class="section-head">
+                <h2 class="section-title">Trending Products</h2>
+                <a href="pages/products.html" class="see-all">View All</a>
+            </div>
+            <!-- This ID is what main.js looks for -->
+            <div class="prod-grid" id="products-grid">
+                <p class="loading">Loading products...</p>
+            </div>
+        </section>
+
+        <!-- TRUST BAR -->
+        <div class="platform-bar">
+            <span class="platform-label">Real-time Price Comparison from:</span>
+            <div class="platforms">
+                <span class="plat-tag">Amazon</span>
+                <span class="plat-tag">Flipkart</span>
+                <span class="plat-tag">Blinkit</span>
+                <span class="plat-tag">Zepto</span>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-col">
+                <h4>About</h4>
+                <a href="#">Contact Us</a>
+                <a href="#">About Us</a>
+                <a href="#">Shopora Wholesale</a>
+            </div>
+            <div class="footer-col">
+                <h4>Help</h4>
+                <a href="#">Payments</a>
+                <a href="#">Shipping</a>
+                <a href="#">Cancellation</a>
+            </div>
+            <div class="footer-col">
+                <h4>Consumer Policy</h4>
+                <a href="#">Return Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Security</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Shopora.com. Built for high-performance shopping.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

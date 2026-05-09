@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product – Shopora</title>
+  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/product-detail.css"/>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo" onclick="window.location='../index.html'" style="cursor:pointer">Sho<span>pora</span></div>
+    <div class="search-wrap" style="max-width:420px">
+      <input type="text" placeholder="Search products…"/>
+      <button><i class='bx bx-search'></i></button>
+    </div>
+    <div class="nav-right">
+      <a href="../pages/login.html" class="icon-btn"><i class='bx bx-user'></i></a>
+      <a href="#" class="icon-btn"><i class='bx bx-heart'></i></a>
+      <a href="../pages/cart.html" class="icon-btn">
+        <i class='bx bx-cart'></i>
+        <span class="badge" id="cartCount">0</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb">
+    <a href="../index.html">Home</a>
+    <i class='bx bx-chevron-right'></i>
+    <a href="products.html">Products</a>
+    <i class='bx bx-chevron-right'></i>
+    <span id="bcName">Product</span>
+  </div>
+
+  <!-- PRODUCT LAYOUT -->
+  <div class="pd-layout">
+
+    <!-- LEFT: IMAGE -->
+    <div class="pd-gallery">
+      <div class="pd-main-img" id="mainImg">📱</div>
+      <div class="pd-thumbs" id="thumbs">
+        <div class="pd-thumb active">📱</div>
+        <div class="pd-thumb">📦</div>
+        <div class="pd-thumb">🔌</div>
+        <div class="pd-thumb">📋</div>
+      </div>
+    </div>
+
+    <!-- RIGHT: DETAILS -->
+    <div class="pd-info">
+      <div class="pd-brand" id="pdBrand">Brand</div>
+      <h1 class="pd-name" id="pdName">Product Name</h1>
+
+      <div class="pd-rating-row">
+        <span class="stars" id="pdStars">★★★★★</span>
+        <span class="rcount" id="pdReviews">(0)</span>
+        <span class="pd-badge-inline b-hot" id="pdBadge">🔥 Hot</span>
+      </div>
+
+      <div class="pd-price-row">
+        <span class="pd-price-now" id="pdPrice">₹0</span>
+        <span class="pd-price-was" id="pdWas">₹0</span>
+        <span class="pd-price-off" id="pdOff">0% off</span>
+      </div>
+
+      <div class="pd-offers">
+        <div class="offer-item"><i class='bx bx-badge-check' style="color:var(--accent4)"></i> Bank Offer: 10% off on HDFC Credit Card</div>
+        <div class="offer-item"><i class='bx bx-badge-check' style="color:var(--accent4)"></i> No Cost EMI from ₹2,499/month</div>
+        <div class="offer-item"><i class='bx bx-badge-check' style="color:var(--accent4)"></i> Free delivery by tomorrow</div>
+      </div>
+
+      <!-- ACTIONS -->
+      <div class="pd-actions">
+        <button class="btn-primary" id="buyBtn" style="flex:1;justify-content:center">
+          <i class='bx bx-cart-add'></i> Add to Cart
+        </button>
+        <button class="btn-ghost" onclick="wishToggle(this)">
+          <i class='bx bx-heart'></i>
+        </button>
+        <button class="btn-ghost">
+          <i class='bx bx-share-alt'></i>
+        </button>
+      </div>
+
+      <!-- DELIVERY -->
+      <div class="pd-delivery">
+        <i class='bx bx-map-pin' style="color:var(--accent1)"></i>
+        <span>Deliver to <b>Delhi 110001</b> — Free, by <b>Tomorrow</b></span>
+      </div>
+
+      <!-- TRUST BADGES -->
+      <div class="trust-row">
+        <div class="trust-item"><i class='bx bx-shield-quarter'></i> 1 Year Warranty</div>
+        <div class="trust-item"><i class='bx bx-undo'></i> 7-Day Return</div>
+        <div class="trust-item"><i class='bx bx-lock-alt'></i> Secure Payment</div>
+        <div class="trust-item"><i class='bx bx-check-shield'></i> 100% Genuine</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ★ PRICE COMPARE SECTION ★ -->
+  <div class="compare-section">
+    <div class="compare-header">
+      <div class="compare-title">
+        <span class="compare-icon">🏷️</span>
+        <div>
+          <h2>Best Price Finder</h2>
+          <p>Live prices across all major platforms — updated just now</p>
+        </div>
+      </div>
+      <div class="compare-badge">
+        <span class="live-dot"></span> Live Prices
+      </div>
+    </div>
+
+    <!-- PLATFORM ROWS -->
+    <div class="compare-list" id="compareList"></div>
+
+    <!-- CTA ROW -->
+    <div class="compare-cta" id="compareCta"></div>
+
+    <!-- SAVINGS INFO -->
+    <div class="compare-savings" id="compareSavings"></div>
+  </div>
+
+  <!-- PRODUCT DESCRIPTION -->
+  <div class="pd-desc-section">
+    <h2 class="section-title" style="font-family:var(--fh);font-size:18px;margin-bottom:16px">Product Details</h2>
+    <div class="pd-specs" id="pdSpecs"></div>
+  </div>
+
+  <!-- FOOTER STRIP -->
+  <footer class="footer" style="margin-top:48px">
+    <div class="footer-bottom">
+      © 2025 Shopora. All rights reserved. &nbsp;|&nbsp;
+      <a href="#">Privacy Policy</a> &nbsp;|&nbsp;
+      <a href="#">Terms of Service</a>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/product-detail.js"></script>
+</body>
+</html>
