@@ -7,10 +7,10 @@ API_URL = "https://shopora-v1.onrender.com/api/products"
 # In the future, we can have an AI generate this list automatically!
 vast_products = [
     {
-        "id": 101,
-        "name": "Mechanical Gaming Keyboard",
+        "id": 103,
+        "name": "Mechanical Gaming Keyboard v2",
         "brand": "Razer",
-        "image": "https://m.media-amazon.com/images/I/71xp8h7A6EL._AC_SL1500_.jpg",
+        "image": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80",
         "price": 8500,
         "was": 12000,
         "off": "30%",
@@ -19,10 +19,10 @@ vast_products = [
         "badge": "b-hot"
     },
     {
-        "id": 102,
-        "name": "Minimalist Ceramic Vase",
+        "id": 104,
+        "name": "Modern Matte Ceramic Vase",
         "brand": "HomeDecor AI",
-        "image": "https://m.media-amazon.com/images/I/61S8n2v1S1L._AC_SL1500_.jpg",
+        "image": "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=500&q=80",
         "price": 1200,
         "was": 2500,
         "off": "52%",
@@ -30,7 +30,6 @@ vast_products = [
         "reviews": 85,
         "badge": ""
     }
-    # We can add 100s more here!
 ]
 
 def seed_database():
