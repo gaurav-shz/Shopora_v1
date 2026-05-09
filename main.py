@@ -40,6 +40,12 @@ def get_all_products():
     products_from_db = list(products_col.find({}, {"_id": 0}))
     return {"products": products_from_db}
 
+@app.post("/api/products")
+def add_product(product: dict = Body(...)):
+    # This takes the data from your seed_ai.py and saves it to the cloud
+    result = products_col.insert_one(product)
+    return {"status": "success", "id": str(result.inserted_id)}
+
 @app.get("/api/products/seed")
 def seed_database():
     # Push your initial data into MongoDB with a live web image
