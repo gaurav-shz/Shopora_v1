@@ -38,7 +38,7 @@ body {
     color: #444;
 }
 
-/* --- Navbar (The part that looks broken in your screenshot) --- */
+/* --- Navbar --- */
 .navbar {
     background: var(--white);
     padding: 12px 5%;
@@ -129,6 +129,54 @@ body {
     margin-left: 15px;
 }
 
+/* --- NEW: CATEGORY STRIP (Amazon/Flipkart Style) --- */
+.cat-strip {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px 20px;
+    background-color: var(--white);
+    overflow-x: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.cat-strip::-webkit-scrollbar {
+    display: none; 
+}
+
+.cat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    min-width: 60px;
+    color: var(--text-dark);
+    transition: all 0.3s ease;
+}
+
+.cat-item i {
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: var(--text-gray);
+    transition: all 0.3s ease;
+}
+
+.cat-item span {
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.cat-item:hover i, .cat-item.active i {
+    color: var(--flipkart-blue);
+    transform: scale(1.1);
+}
+.cat-item:hover span, .cat-item.active span {
+    color: var(--flipkart-blue);
+    font-weight: 600;
+}
+
 /* --- Hero Section --- */
 .hero-banner {
     background: white;
@@ -173,18 +221,20 @@ body {
     transition: transform 0.2s;
     text-align: center;
     border: 1px solid #eee;
+    cursor: pointer;
 }
 
 .product-card:hover {
-    transform: scale(1.02);
+    transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .product-card img {
     max-width: 100%;
     height: 200px;
-    object-fit: contain;
+    object-fit: cover; /* Changed to cover so images fill nicely */
     margin-bottom: 10px;
+    border-radius: 4px;
 }
 
 .btn-primary {
