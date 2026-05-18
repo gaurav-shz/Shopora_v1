@@ -6,8 +6,13 @@ const PRODUCTS = [
     name: "iPhone 15 Pro",
     brand: "Apple",
     category: "Electronics",
-    image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium?wid=800&hei=800&fmt=p-jpg&qlt=80",
-    thumbs: ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium?wid=800&hei=800&fmt=p-jpg&qlt=80","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-bluetitanium?wid=800&hei=800&fmt=p-jpg&qlt=80","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-whitetitanium?wid=800&hei=800&fmt=p-jpg&qlt=80","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-blacktitanium?wid=800&hei=800&fmt=p-jpg&qlt=80"],
+    image: "https://m.media-amazon.com/images/I/81SigpJN1KL._SL1500_.jpg",
+    thumbs: [
+      "https://m.media-amazon.com/images/I/81SigpJN1KL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71bBPTNWgAL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61jyPPAFyTL._SL1500_.jpg"
+    ],
     price: 124999, was: 134999, off: 7, badge: "b-hot", rating: 4.8, reviews: 23410,
     highlights: ["A17 Pro chip — the most powerful chip ever in a smartphone","Titanium design — stronger and lighter than stainless steel","48MP main camera with 5x optical zoom","USB-C with USB 3 speeds","All-day battery life up to 23 hours video playback"],
     description: "iPhone 15 Pro is the first iPhone to feature an aerospace-grade titanium design, using the same alloy used by NASA for space missions. iPhone 15 Pro also has the A17 Pro chip — a huge leap in performance — and introduces the next generation of the Pro camera system.",
@@ -20,8 +25,13 @@ const PRODUCTS = [
     name: "Samsung Galaxy S24 Ultra",
     brand: "Samsung",
     category: "Electronics",
-    image: "https://images.samsung.com/in/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titaniumblack.jpg",
-    thumbs: ["https://images.samsung.com/in/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titaniumblack.jpg","https://images.samsung.com/in/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titaniumgray.jpg","https://images.samsung.com/in/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titaniumviolet.jpg","https://images.samsung.com/in/smartphones/galaxy-s24-ultra/images/galaxy-s24-ultra-highlights-color-titaniumyellow.jpg"],
+    image: "https://m.media-amazon.com/images/I/71W0fJSaIbL._SL1500_.jpg",
+    thumbs: [
+      "https://m.media-amazon.com/images/I/71W0fJSaIbL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71DgHqB7cRL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61H9e6nUryL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71mEHXtKNNL._SL1500_.jpg"
+    ],
     price: 109999, was: 134999, off: 18, badge: "b-sale", rating: 4.7, reviews: 18900,
     highlights: ["Built-in S Pen with AI-powered features","200MP main camera — capture every detail","Snapdragon 8 Gen 3 processor","5000mAh battery with 45W fast charging","Titanium frame — ultra durable"],
     description: "Galaxy S24 Ultra is Samsung's most powerful smartphone ever. With a built-in S Pen, 200MP camera system, and Snapdragon 8 Gen 3 chip, it redefines what a phone can do.",
@@ -34,8 +44,13 @@ const PRODUCTS = [
     name: "Sony WH-1000XM5",
     brand: "Sony",
     category: "Electronics",
-    image: "https://sony.scene7.com/is/image/sonyglobalsolutions/WH-1000XM5_B_Front?fmt=png-alpha&wid=800",
-    thumbs: ["https://sony.scene7.com/is/image/sonyglobalsolutions/WH-1000XM5_B_Front?fmt=png-alpha&wid=800","https://sony.scene7.com/is/image/sonyglobalsolutions/WH-1000XM5_B_Back?fmt=png-alpha&wid=800","https://sony.scene7.com/is/image/sonyglobalsolutions/WH-1000XM5_S_Front?fmt=png-alpha&wid=800","https://sony.scene7.com/is/image/sonyglobalsolutions/WH-1000XM5_B_lifestyle?fmt=png-alpha&wid=800"],
+    image: "https://m.media-amazon.com/images/I/61vhcFMcFBL._SL1500_.jpg",
+    thumbs: [
+      "https://m.media-amazon.com/images/I/61vhcFMcFBL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71o8Q5XJS5L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61IHjnFnJLL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71dSGkBROhL._SL1500_.jpg"
+    ],
     price: 24990, was: 34990, off: 28, badge: "b-new", rating: 4.9, reviews: 15600,
     highlights: ["Industry-leading noise cancellation with 8 microphones","30 hours battery life with quick charge (3 min = 3 hours)","Crystal clear hands-free calling","Multipoint connection — connect 2 devices simultaneously","Speak-to-chat pauses music when you talk"],
     description: "The WH-1000XM5 headphones give you everything you need for a phenomenal listening experience. Industry-leading noise cancellation, exceptional sound quality, crystal clear calling, and Alexa built-in.",
@@ -48,8 +63,13 @@ const PRODUCTS = [
     name: "Nike Air Jordan 1 Retro",
     brand: "Nike",
     category: "Fashion",
-    image: "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/99486859-0ff3-46b4-949b-2d16af2ad421/air-jordan-1-retro-high-og-shoes-X5pM4p.png",
-    thumbs: ["https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/99486859-0ff3-46b4-949b-2d16af2ad421/air-jordan-1-retro-high-og-shoes-X5pM4p.png","https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/c4488f35-f1ce-4b48-bbd1-e4c10b3e0765/air-jordan-1-retro-high-og-shoes-X5pM4p.png","https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f7e4b8d3-2f5d-4c6e-b4d5-1e2f3a4b5c6d/air-jordan-1-retro-high-og-shoes-X5pM4p.png","https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/a1b2c3d4-e5f6-7890-abcd-ef1234567890/air-jordan-1-retro-high-og-shoes-X5pM4p.png"],
+    image: "https://m.media-amazon.com/images/I/71OXbJp5kML._UL1500_.jpg",
+    thumbs: [
+      "https://m.media-amazon.com/images/I/71OXbJp5kML._UL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71Kn0GXGkBL._UL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71U9QSRM5HL._UL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71+WgDKcapL._UL1500_.jpg"
+    ],
     price: 16500, was: 20000, off: 17, badge: "b-hot", rating: 4.9, reviews: 22000,
     highlights: ["Classic high-top silhouette from 1985","Full-grain leather upper for durability","Nike Air cushioning for comfort","Rubber outsole for superior traction","Iconic colourways loved worldwide"],
     description: "The Air Jordan 1 Retro High OG takes a step back to 1985, when Michael Jordan rocked these on the hardwood. Today they're just as iconic — a fashion statement and a collector's dream.",
@@ -62,8 +82,13 @@ const PRODUCTS = [
     name: "MacBook Air M3",
     brand: "Apple",
     category: "Electronics",
-    image: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba13-midnight-select-202402?wid=800&hei=800&fmt=jpeg&qlt=90",
-    thumbs: ["https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba13-midnight-select-202402?wid=800&hei=800&fmt=jpeg&qlt=90","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba13-starlight-select-202402?wid=800&hei=800&fmt=jpeg&qlt=90","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba13-spacegray-select-202402?wid=800&hei=800&fmt=jpeg&qlt=90","https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mba13-skyblue-select-202402?wid=800&hei=800&fmt=jpeg&qlt=90"],
+    image: "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+    thumbs: [
+      "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71tp1BVTG-L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71xFta4YNKL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71LMnBSN1NL._SL1500_.jpg"
+    ],
     price: 114900, was: 134900, off: 15, badge: "b-sale", rating: 4.8, reviews: 5600,
     highlights: ["Apple M3 chip — insanely fast for everyday tasks","Up to 18 hours battery life","13.6-inch Liquid Retina display","Fanless design — completely silent","8GB / 16GB unified memory options"],
     description: "MacBook Air with M3 chip is the world's best consumer laptop. Incredibly thin and light, with all-day battery and Apple's most capable chip yet. Perfect for students, creators, and professionals.",
@@ -77,7 +102,12 @@ const PRODUCTS = [
     brand: "Instant Pot",
     category: "Home",
     image: "https://m.media-amazon.com/images/I/71CN6-tMNDL._SL1500_.jpg",
-    thumbs: ["https://m.media-amazon.com/images/I/71CN6-tMNDL._SL1500_.jpg","https://m.media-amazon.com/images/I/81wCwTFUECL._SL1500_.jpg","https://m.media-amazon.com/images/I/71jSEwF2gGL._SL1500_.jpg","https://m.media-amazon.com/images/I/71pNQ4LINHL._SL1500_.jpg"],
+    thumbs: [
+      "https://m.media-amazon.com/images/I/71CN6-tMNDL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81wCwTFUECL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71jSEwF2gGL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71pNQ4LINHL._SL1500_.jpg"
+    ],
     price: 6499, was: 9999, off: 35, badge: "b-sale", rating: 4.7, reviews: 6200,
     highlights: ["7-in-1: Pressure Cooker, Slow Cooker, Rice Cooker, Steamer, Sauté, Yogurt Maker, Warmer","Cooks up to 70% faster than traditional cooking","6-litre capacity — perfect for families","14 smart programmes","10+ safety features built-in"],
     description: "The Instant Pot Duo 7-in-1 is the world's best-selling multi-cooker. Replace 7 appliances with one — saving counter space and time. Cook healthy, delicious meals up to 70% faster.",
@@ -90,8 +120,13 @@ const PRODUCTS = [
     name: "Levi's 501 Original Jeans",
     brand: "Levi's",
     category: "Fashion",
-    image: "https://lsco.scene7.com/is/image/lscoinc/005010194-front-pdp?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=800&hei=800",
-    thumbs: ["https://lsco.scene7.com/is/image/lscoinc/005010194-front-pdp?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=800&hei=800","https://lsco.scene7.com/is/image/lscoinc/005010194-back-pdp?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=800&hei=800","https://lsco.scene7.com/is/image/lscoinc/005010194-alt1-pdp?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=800&hei=800","https://lsco.scene7.com/is/image/lscoinc/005010194-alt2-pdp?fmt=jpeg&qlt=70&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=800&hei=800"],
+    image: "https://m.media-amazon.com/images/I/81sKAjvHoAL._UL1500_.jpg",
+    thumbs: [
+      "https://m.media-amazon.com/images/I/81sKAjvHoAL._UL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91UfMvR5LkL._UL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81bFqMFrGoL._UL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71d7rfSl2PL._UL1500_.jpg"
+    ],
     price: 3499, was: 5999, off: 41, badge: "b-sale", rating: 4.6, reviews: 31000,
     highlights: ["The original blue jean since 1873","100% cotton denim — gets better with every wash","Straight fit through thigh and leg","Button fly closure","Available in multiple washes and sizes"],
     description: "The Levi's 501 Original is the jean that started it all. Born in 1873, it's the world's first blue jean and still one of the most iconic. Straight fit, button fly, and genuine denim — timeless style.",
@@ -104,8 +139,13 @@ const PRODUCTS = [
     name: "boAt Airdopes 141",
     brand: "boAt",
     category: "Electronics",
-    image: "https://www.boat-lifestyle.com/cdn/shop/products/Airdopes141_active-black_1.png?v=1652097987&width=800",
-    thumbs: ["https://www.boat-lifestyle.com/cdn/shop/products/Airdopes141_active-black_1.png?v=1652097987&width=800","https://www.boat-lifestyle.com/cdn/shop/products/Airdopes141_active-blue_1.png?v=1652097987&width=800","https://www.boat-lifestyle.com/cdn/shop/products/Airdopes141_active-white_1.png?v=1652097987&width=800","https://www.boat-lifestyle.com/cdn/shop/products/Airdopes141_active-green_1.png?v=1652097987&width=800"],
+    image: "https://m.media-amazon.com/images/I/61FXQW3KmQL._SL1500_.jpg",
+    thumbs: [
+      "https://m.media-amazon.com/images/I/61FXQW3KmQL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61p5RlgmNpL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61GGJYIIFkL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/611aDiReXzL._SL1500_.jpg"
+    ],
     price: 1299, was: 2990, off: 56, badge: "b-sale", rating: 4.2, reviews: 89000,
     highlights: ["42 hours total playback with charging case","BEAST Mode for ultra-low latency gaming","ENx Technology for clear calls","IPX4 water resistance","Instant voice assistant access"],
     description: "boAt Airdopes 141 TWS earbuds deliver massive 42 hours of playback, BEAST Mode for gaming, and clear calling — all at an unbelievable price. India's most popular TWS earbuds.",
@@ -119,7 +159,12 @@ const PRODUCTS = [
     brand: "Maybelline",
     category: "Beauty",
     image: "https://m.media-amazon.com/images/I/51e8KFM469L._SL1000_.jpg",
-    thumbs: ["https://m.media-amazon.com/images/I/51e8KFM469L._SL1000_.jpg","https://m.media-amazon.com/images/I/61eFT5C0kTL._SL1000_.jpg","https://m.media-amazon.com/images/I/71y3qQXPpNL._SL1000_.jpg","https://m.media-amazon.com/images/I/61qBm9LFKXL._SL1000_.jpg"],
+    thumbs: [
+      "https://m.media-amazon.com/images/I/51e8KFM469L._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61eFT5C0kTL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/71y3qQXPpNL._SL1000_.jpg",
+      "https://m.media-amazon.com/images/I/61qBm9LFKXL._SL1000_.jpg"
+    ],
     price: 399, was: 599, off: 33, badge: "b-sale", rating: 4.4, reviews: 45000,
     highlights: ["Natural finish foundation for normal to oily skin","SPF 18 sun protection","40 shades to match every skin tone","Lightweight, breathable formula","Dermatologist tested"],
     description: "Maybelline Fit Me Foundation gives a natural, breathable coverage that matches your skin perfectly. With SPF 18 and 40 shades, it's India's most loved foundation for everyday wear.",
@@ -133,7 +178,12 @@ const PRODUCTS = [
     brand: "Tata",
     category: "Groceries",
     image: "https://m.media-amazon.com/images/I/61jVgW6OWNL._SL1500_.jpg",
-    thumbs: ["https://m.media-amazon.com/images/I/61jVgW6OWNL._SL1500_.jpg","https://m.media-amazon.com/images/I/71c3SWCT5CL._SL1500_.jpg","https://m.media-amazon.com/images/I/61Qa4gT7CJL._SL1500_.jpg","https://m.media-amazon.com/images/I/71eWBzKWKGL._SL1500_.jpg"],
+    thumbs: [
+      "https://m.media-amazon.com/images/I/61jVgW6OWNL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71c3SWCT5CL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/61Qa4gT7CJL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71eWBzKWKGL._SL1500_.jpg"
+    ],
     price: 299, was: 350, off: 14, badge: "b-fast", rating: 4.5, reviews: 120000,
     highlights: ["Premium Assam & Darjeeling blend","Rich, aromatic flavour","500g pack — great value","No artificial flavours","India's most trusted tea brand"],
     description: "Tata Tea Gold is a premium blend of Assam and Darjeeling teas, offering a rich, golden cup every morning. India's most trusted tea — now delivered in 10 minutes.",
@@ -147,7 +197,12 @@ const PRODUCTS = [
     brand: "Boldfit",
     category: "Sports",
     image: "https://m.media-amazon.com/images/I/71fKfLAnAJL._SL1500_.jpg",
-    thumbs: ["https://m.media-amazon.com/images/I/71fKfLAnAJL._SL1500_.jpg","https://m.media-amazon.com/images/I/81lbVFgLc5L._SL1500_.jpg","https://m.media-amazon.com/images/I/71TWcCEFb3L._SL1500_.jpg","https://m.media-amazon.com/images/I/71u3GEBbFsL._SL1500_.jpg"],
+    thumbs: [
+      "https://m.media-amazon.com/images/I/71fKfLAnAJL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81lbVFgLc5L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71TWcCEFb3L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71u3GEBbFsL._SL1500_.jpg"
+    ],
     price: 699, was: 1499, off: 53, badge: "b-sale", rating: 4.3, reviews: 28000,
     highlights: ["6mm thick anti-slip surface","183cm x 61cm — full body coverage","Lightweight & easy to carry","Sweat resistant material","Ideal for yoga, pilates & stretching"],
     description: "Boldfit Premium Yoga Mat gives you the perfect grip and cushioning for your daily yoga practice. Anti-slip, sweat resistant, and easy to clean — your ideal workout companion.",
@@ -161,7 +216,12 @@ const PRODUCTS = [
     brand: "James Clear",
     category: "Books",
     image: "https://m.media-amazon.com/images/I/81wgcld4wxL._SL1500_.jpg",
-    thumbs: ["https://m.media-amazon.com/images/I/81wgcld4wxL._SL1500_.jpg","https://m.media-amazon.com/images/I/81YkqyaFVEL._SL1500_.jpg","https://m.media-amazon.com/images/I/71RdCqGGBBL._SL1500_.jpg","https://m.media-amazon.com/images/I/81YkqyaFVEL._SL1500_.jpg"],
+    thumbs: [
+      "https://m.media-amazon.com/images/I/81wgcld4wxL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81YkqyaFVEL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71RdCqGGBBL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81YkqyaFVEL._SL1500_.jpg"
+    ],
     price: 399, was: 799, off: 50, badge: "b-sale", rating: 4.9, reviews: 95000,
     highlights: ["#1 New York Times Bestseller","Over 15 million copies sold worldwide","Proven framework for building good habits","Easy to read — practical & actionable","Available in English & Hindi"],
     description: "Atomic Habits by James Clear is the definitive guide to building good habits and breaking bad ones. With a proven framework and real-world examples, it's the most practical self-improvement book ever written.",
