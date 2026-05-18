@@ -6,227 +6,227 @@ const PRODUCTS = [
     name: "iPhone 15 Pro",
     brand: "Apple",
     category: "Electronics",
-    image: "https://m.media-amazon.com/images/I/81SigpJN1KL._SL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/smartphones/iPhone%2015%20Pro/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/81SigpJN1KL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71bBPTNWgAL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61bK6PMOC3L._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61jyPPAFyTL._SL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/smartphones/iPhone%2015%20Pro/1.png",
+      "https://cdn.dummyjson.com/products/images/smartphones/iPhone%2015%20Pro/2.png",
+      "https://cdn.dummyjson.com/products/images/smartphones/iPhone%2015%20Pro/3.png",
+      "https://cdn.dummyjson.com/products/images/smartphones/iPhone%2015%20Pro/4.png"
     ],
     price: 124999, was: 134999, off: 7, badge: "b-hot", rating: 4.8, reviews: 23410,
-    highlights: ["A17 Pro chip — the most powerful chip ever in a smartphone","Titanium design — stronger and lighter than stainless steel","48MP main camera with 5x optical zoom","USB-C with USB 3 speeds","All-day battery life up to 23 hours video playback"],
-    description: "iPhone 15 Pro is the first iPhone to feature an aerospace-grade titanium design, using the same alloy used by NASA for space missions. iPhone 15 Pro also has the A17 Pro chip — a huge leap in performance — and introduces the next generation of the Pro camera system.",
-    specs: [{key:"Display",val:"6.1-inch Super Retina XDR"},{key:"Chip",val:"A17 Pro (3nm)"},{key:"RAM",val:"8GB"},{key:"Storage",val:"128GB / 256GB / 512GB / 1TB"},{key:"Camera",val:"48MP + 12MP + 12MP Triple"},{key:"Battery",val:"3274 mAh, 23hr video"},{key:"OS",val:"iOS 17"},{key:"5G",val:"Yes"},{key:"Water Resistant",val:"IP68"},{key:"Colours",val:"Natural, Blue, White, Black Titanium"}],
-    userReviews: [{name:"Rahul S.",stars:5,date:"2 days ago",text:"Absolutely stunning phone. The camera is insane and titanium build feels premium.",verified:true},{name:"Priya M.",stars:5,date:"1 week ago",text:"Best iPhone ever. Battery life is great and it charges super fast.",verified:true},{name:"Arjun K.",stars:4,date:"2 weeks ago",text:"Great phone but a bit pricey. Shopora gave the best price vs Amazon!",verified:true}],
-    platforms: [{name:"Shopora",price:124999,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:126999,url:"https://www.amazon.in/s?k=iphone+15+pro",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:128499,url:"https://www.flipkart.com/search?q=iphone+15+pro",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true},{name:"Croma",price:131000,url:"https://www.croma.com/searchB?q=iphone+15+pro",emoji:"🟢",color:"#00a19a",delivery:"Free, 3 days",trusted:true},{name:"Meesho",price:135000,url:"https://www.meesho.com/search?q=iphone+15+pro",emoji:"🩷",color:"#f43397",delivery:"₹49, 4 days",trusted:false}]
+    highlights: ["A17 Pro chip","Titanium design","48MP main camera with 5x optical zoom","USB-C with USB 3 speeds","All-day battery life"],
+    description: "iPhone 15 Pro is the first iPhone to feature an aerospace-grade titanium design. A17 Pro chip — a huge leap in performance.",
+    specs: [{key:"Display",val:"6.1-inch Super Retina XDR"},{key:"Chip",val:"A17 Pro (3nm)"},{key:"RAM",val:"8GB"},{key:"Storage",val:"128GB / 256GB / 512GB / 1TB"},{key:"Camera",val:"48MP + 12MP + 12MP Triple"},{key:"Battery",val:"3274 mAh"},{key:"OS",val:"iOS 17"},{key:"5G",val:"Yes"},{key:"Water Resistant",val:"IP68"}],
+    userReviews: [{name:"Rahul S.",stars:5,date:"2 days ago",text:"Absolutely stunning phone.",verified:true},{name:"Priya M.",stars:5,date:"1 week ago",text:"Best iPhone ever.",verified:true}],
+    platforms: [{name:"Shopora",price:124999,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:126999,url:"https://www.amazon.in/s?k=iphone+15+pro",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:128499,url:"https://www.flipkart.com/search?q=iphone+15+pro",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true}]
   },
   {
     id: 2,
     name: "Samsung Galaxy S24 Ultra",
     brand: "Samsung",
     category: "Electronics",
-    image: "https://m.media-amazon.com/images/I/71W0fJSaIbL._SL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S24%20Ultra/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/71W0fJSaIbL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71DgHqB7cRL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61H9e6nUryL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71mEHXtKNNL._SL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S24%20Ultra/1.png",
+      "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S24%20Ultra/2.png",
+      "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S24%20Ultra/3.png",
+      "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S24%20Ultra/4.png"
     ],
     price: 109999, was: 134999, off: 18, badge: "b-sale", rating: 4.7, reviews: 18900,
-    highlights: ["Built-in S Pen with AI-powered features","200MP main camera — capture every detail","Snapdragon 8 Gen 3 processor","5000mAh battery with 45W fast charging","Titanium frame — ultra durable"],
-    description: "Galaxy S24 Ultra is Samsung's most powerful smartphone ever. With a built-in S Pen, 200MP camera system, and Snapdragon 8 Gen 3 chip, it redefines what a phone can do.",
-    specs: [{key:"Display",val:"6.8-inch QHD+ Dynamic AMOLED"},{key:"Chip",val:"Snapdragon 8 Gen 3"},{key:"RAM",val:"12GB"},{key:"Storage",val:"256GB / 512GB / 1TB"},{key:"Camera",val:"200MP + 50MP + 12MP + 10MP"},{key:"Battery",val:"5000mAh, 45W charging"},{key:"OS",val:"Android 14 / One UI 6.1"},{key:"5G",val:"Yes"},{key:"Water Resistant",val:"IP68"},{key:"S Pen",val:"Built-in"}],
-    userReviews: [{name:"Vikram T.",stars:5,date:"3 days ago",text:"The S Pen is a game changer. Camera quality is absolutely insane.",verified:true},{name:"Sneha R.",stars:4,date:"1 week ago",text:"Best Android phone out there. Got it cheaper on Shopora!",verified:true},{name:"Karan P.",stars:5,date:"3 weeks ago",text:"Battery life is phenomenal. Easily lasts a full day with heavy use.",verified:true}],
-    platforms: [{name:"Shopora",price:109999,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Flipkart",price:111999,url:"https://www.flipkart.com/search?q=samsung+galaxy+s24+ultra",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:113499,url:"https://www.amazon.in/s?k=samsung+galaxy+s24+ultra",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Croma",price:119000,url:"https://www.croma.com/searchB?q=samsung+galaxy+s24+ultra",emoji:"🟢",color:"#00a19a",delivery:"Free, 3 days",trusted:true}]
+    highlights: ["Built-in S Pen","200MP main camera","Snapdragon 8 Gen 3","5000mAh battery","Titanium frame"],
+    description: "Galaxy S24 Ultra is Samsung's most powerful smartphone ever.",
+    specs: [{key:"Display",val:"6.8-inch QHD+ AMOLED"},{key:"Chip",val:"Snapdragon 8 Gen 3"},{key:"RAM",val:"12GB"},{key:"Camera",val:"200MP"},{key:"Battery",val:"5000mAh"},{key:"OS",val:"Android 14"}],
+    userReviews: [{name:"Vikram T.",stars:5,date:"3 days ago",text:"The S Pen is a game changer.",verified:true},{name:"Sneha R.",stars:4,date:"1 week ago",text:"Best Android phone out there.",verified:true}],
+    platforms: [{name:"Shopora",price:109999,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Flipkart",price:111999,url:"https://www.flipkart.com/search?q=samsung+galaxy+s24+ultra",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:113499,url:"https://www.amazon.in/s?k=samsung+galaxy+s24+ultra",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true}]
   },
   {
     id: 3,
     name: "Sony WH-1000XM5",
     brand: "Sony",
     category: "Electronics",
-    image: "https://m.media-amazon.com/images/I/61vhcFMcFBL._SL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Pro/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/61vhcFMcFBL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71o8Q5XJS5L._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61IHjnFnJLL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71dSGkBROhL._SL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Pro/1.png",
+      "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Pro/2.png",
+      "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Pro/3.png",
+      "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Pro/4.png"
     ],
     price: 24990, was: 34990, off: 28, badge: "b-new", rating: 4.9, reviews: 15600,
-    highlights: ["Industry-leading noise cancellation with 8 microphones","30 hours battery life with quick charge (3 min = 3 hours)","Crystal clear hands-free calling","Multipoint connection — connect 2 devices simultaneously","Speak-to-chat pauses music when you talk"],
-    description: "The WH-1000XM5 headphones give you everything you need for a phenomenal listening experience. Industry-leading noise cancellation, exceptional sound quality, crystal clear calling, and Alexa built-in.",
-    specs: [{key:"Driver",val:"30mm dynamic driver"},{key:"Frequency",val:"4Hz – 40,000Hz"},{key:"Battery",val:"30 hours (NC on)"},{key:"Charging",val:"USB-C, Quick Charge"},{key:"Connectivity",val:"Bluetooth 5.2, Multipoint"},{key:"Weight",val:"250g"},{key:"Microphones",val:"8 mics for ANC"},{key:"Foldable",val:"No"},{key:"Colours",val:"Black, Silver"},{key:"Warranty",val:"1 year"}],
-    userReviews: [{name:"Aditya N.",stars:5,date:"1 day ago",text:"Best noise cancelling headphones period. Worth every rupee.",verified:true},{name:"Meera V.",stars:5,date:"5 days ago",text:"I work from home and these are a lifesaver. Sound quality is unreal.",verified:true},{name:"Rohit G.",stars:4,date:"2 weeks ago",text:"Great headphones. Shopora price was best, saved ₹3000 vs Amazon.",verified:true}],
-    platforms: [{name:"Shopora",price:24990,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:26990,url:"https://www.amazon.in/s?k=sony+wh1000xm5",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:27999,url:"https://www.flipkart.com/search?q=sony+wh1000xm5",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true},{name:"Croma",price:29990,url:"https://www.croma.com/searchB?q=sony+wh-1000xm5",emoji:"🟢",color:"#00a19a",delivery:"Free, 3 days",trusted:true}]
+    highlights: ["Industry-leading noise cancellation","30 hours battery","Crystal clear calls","Multipoint connection","Speak-to-chat"],
+    description: "The WH-1000XM5 headphones — industry-leading noise cancellation and exceptional sound quality.",
+    specs: [{key:"Driver",val:"30mm dynamic"},{key:"Battery",val:"30 hours"},{key:"Charging",val:"USB-C"},{key:"Connectivity",val:"Bluetooth 5.2"},{key:"Weight",val:"250g"}],
+    userReviews: [{name:"Aditya N.",stars:5,date:"1 day ago",text:"Best noise cancelling headphones period.",verified:true}],
+    platforms: [{name:"Shopora",price:24990,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:26990,url:"https://www.amazon.in/s?k=sony+wh1000xm5",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:27999,url:"https://www.flipkart.com/search?q=sony+wh1000xm5",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true}]
   },
   {
     id: 4,
     name: "Nike Air Jordan 1 Retro",
     brand: "Nike",
     category: "Fashion",
-    image: "https://m.media-amazon.com/images/I/71OXbJp5kML._UL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Retro%20High/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/71OXbJp5kML._UL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71Kn0GXGkBL._UL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71U9QSRM5HL._UL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71+WgDKcapL._UL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Retro%20High/1.png",
+      "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Retro%20High/2.png",
+      "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Retro%20High/3.png",
+      "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Retro%20High/4.png"
     ],
     price: 16500, was: 20000, off: 17, badge: "b-hot", rating: 4.9, reviews: 22000,
-    highlights: ["Classic high-top silhouette from 1985","Full-grain leather upper for durability","Nike Air cushioning for comfort","Rubber outsole for superior traction","Iconic colourways loved worldwide"],
-    description: "The Air Jordan 1 Retro High OG takes a step back to 1985, when Michael Jordan rocked these on the hardwood. Today they're just as iconic — a fashion statement and a collector's dream.",
-    specs: [{key:"Type",val:"High-Top Sneaker"},{key:"Upper",val:"Full-grain leather"},{key:"Sole",val:"Rubber outsole"},{key:"Cushioning",val:"Nike Air"},{key:"Closure",val:"Lace-up"},{key:"Sizes",val:"UK 6 – UK 12"},{key:"Colours",val:"Multiple colourways"},{key:"Origin",val:"Inspired by 1985 original"}],
-    userReviews: [{name:"Zara K.",stars:5,date:"4 days ago",text:"Absolutely fire! Best sneakers I've ever owned. True to size.",verified:true},{name:"Rohan M.",stars:5,date:"1 week ago",text:"Great quality and fast delivery from Shopora. 10/10.",verified:true},{name:"Ananya S.",stars:4,date:"3 weeks ago",text:"Love the shoe but takes time to break in. Worth it though!",verified:true}],
-    platforms: [{name:"Shopora",price:16500,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Myntra",price:17999,url:"https://www.myntra.com/nike+air+jordan",emoji:"🩷",color:"#ff3f6c",delivery:"Free, 3 days",trusted:true},{name:"Amazon",price:18500,url:"https://www.amazon.in/s?k=nike+air+jordan+1+retro",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:19200,url:"https://www.flipkart.com/search?q=nike+air+jordan+1",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true}]
+    highlights: ["Classic high-top from 1985","Full-grain leather upper","Nike Air cushioning","Rubber outsole","Iconic colourways"],
+    description: "The Air Jordan 1 Retro — a fashion statement and a collector's dream since 1985.",
+    specs: [{key:"Type",val:"High-Top Sneaker"},{key:"Upper",val:"Full-grain leather"},{key:"Sole",val:"Rubber"},{key:"Cushioning",val:"Nike Air"},{key:"Sizes",val:"UK 6 – UK 12"}],
+    userReviews: [{name:"Zara K.",stars:5,date:"4 days ago",text:"Absolutely fire! Best sneakers ever.",verified:true}],
+    platforms: [{name:"Shopora",price:16500,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Myntra",price:17999,url:"https://www.myntra.com/nike+air+jordan",emoji:"🩷",color:"#ff3f6c",delivery:"Free, 3 days",trusted:true},{name:"Amazon",price:18500,url:"https://www.amazon.in/s?k=nike+air+jordan+1+retro",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true}]
   },
   {
     id: 5,
     name: "MacBook Air M3",
     brand: "Apple",
     category: "Electronics",
-    image: "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71tp1BVTG-L._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71xFta4YNKL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71LMnBSN1NL._SL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
+      "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/2.png",
+      "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/3.png",
+      "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/4.png"
     ],
     price: 114900, was: 134900, off: 15, badge: "b-sale", rating: 4.8, reviews: 5600,
-    highlights: ["Apple M3 chip — insanely fast for everyday tasks","Up to 18 hours battery life","13.6-inch Liquid Retina display","Fanless design — completely silent","8GB / 16GB unified memory options"],
-    description: "MacBook Air with M3 chip is the world's best consumer laptop. Incredibly thin and light, with all-day battery and Apple's most capable chip yet. Perfect for students, creators, and professionals.",
-    specs: [{key:"Chip",val:"Apple M3 (8-core CPU)"},{key:"RAM",val:"8GB / 16GB unified memory"},{key:"Storage",val:"256GB / 512GB / 1TB / 2TB SSD"},{key:"Display",val:"13.6-inch Liquid Retina"},{key:"Battery",val:"Up to 18 hours"},{key:"Weight",val:"1.24 kg"},{key:"Ports",val:"2x Thunderbolt / USB 4, MagSafe, 3.5mm"},{key:"OS",val:"macOS Sonoma"},{key:"Colours",val:"Midnight, Starlight, Space Grey, Sky Blue"}],
-    userReviews: [{name:"Divya L.",stars:5,date:"2 days ago",text:"Switched from Windows and never looking back. M3 is a beast.",verified:true},{name:"Sahil T.",stars:5,date:"1 week ago",text:"Battery lasts literally all day. Amazing laptop.",verified:true},{name:"Nisha P.",stars:4,date:"2 weeks ago",text:"Perfect for college. Light, fast, and looks gorgeous.",verified:true}],
-    platforms: [{name:"Shopora",price:114900,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:116900,url:"https://www.amazon.in/s?k=macbook+air+m3",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:118999,url:"https://www.flipkart.com/search?q=macbook+air+m3",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true},{name:"Croma",price:122900,url:"https://www.croma.com/searchB?q=macbook+air+m3",emoji:"🟢",color:"#00a19a",delivery:"Free, 3 days",trusted:true}]
+    highlights: ["Apple M3 chip","18 hours battery","13.6-inch Liquid Retina display","Fanless design","8GB / 16GB memory"],
+    description: "MacBook Air with M3 chip — the world's best consumer laptop. Thin, light, all-day battery.",
+    specs: [{key:"Chip",val:"Apple M3"},{key:"RAM",val:"8GB / 16GB"},{key:"Storage",val:"256GB – 2TB SSD"},{key:"Display",val:"13.6-inch Liquid Retina"},{key:"Battery",val:"Up to 18 hours"},{key:"Weight",val:"1.24 kg"}],
+    userReviews: [{name:"Divya L.",stars:5,date:"2 days ago",text:"Switched from Windows and never looking back.",verified:true}],
+    platforms: [{name:"Shopora",price:114900,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:116900,url:"https://www.amazon.in/s?k=macbook+air+m3",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:118999,url:"https://www.flipkart.com/search?q=macbook+air+m3",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true}]
   },
   {
     id: 6,
     name: "Instant Pot Duo 7-in-1",
     brand: "Instant Pot",
     category: "Home",
-    image: "https://m.media-amazon.com/images/I/71CN6-tMNDL._SL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/kitchen-accessories/Instant%20Pot%20Duo%207-in-1/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/71CN6-tMNDL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/81wCwTFUECL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71jSEwF2gGL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71pNQ4LINHL._SL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/kitchen-accessories/Instant%20Pot%20Duo%207-in-1/1.png",
+      "https://cdn.dummyjson.com/products/images/kitchen-accessories/Instant%20Pot%20Duo%207-in-1/2.png",
+      "https://cdn.dummyjson.com/products/images/kitchen-accessories/Instant%20Pot%20Duo%207-in-1/3.png",
+      "https://cdn.dummyjson.com/products/images/kitchen-accessories/Instant%20Pot%20Duo%207-in-1/4.png"
     ],
     price: 6499, was: 9999, off: 35, badge: "b-sale", rating: 4.7, reviews: 6200,
-    highlights: ["7-in-1: Pressure Cooker, Slow Cooker, Rice Cooker, Steamer, Sauté, Yogurt Maker, Warmer","Cooks up to 70% faster than traditional cooking","6-litre capacity — perfect for families","14 smart programmes","10+ safety features built-in"],
-    description: "The Instant Pot Duo 7-in-1 is the world's best-selling multi-cooker. Replace 7 appliances with one — saving counter space and time. Cook healthy, delicious meals up to 70% faster.",
-    specs: [{key:"Capacity",val:"6 Litres"},{key:"Functions",val:"7-in-1 Multi-Cooker"},{key:"Power",val:"1000W"},{key:"Programmes",val:"14 smart programmes"},{key:"Pressure",val:"High & Low"},{key:"Delay Start",val:"Up to 24 hours"},{key:"Keep Warm",val:"Up to 10 hours"},{key:"Material",val:"Stainless Steel inner pot"}],
-    userReviews: [{name:"Sunita R.",stars:5,date:"3 days ago",text:"Changed the way I cook! Dal in 15 mins, biryani in 30. Amazing.",verified:true},{name:"Amit K.",stars:5,date:"2 weeks ago",text:"Best kitchen purchase ever. Saves so much time and gas.",verified:true},{name:"Kavya M.",stars:4,date:"1 month ago",text:"Great cooker. Shopora price was ₹500 cheaper than Amazon!",verified:true}],
-    platforms: [{name:"Shopora",price:6499,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:6999,url:"https://www.amazon.in/s?k=instant+pot+duo+7+in+1",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:7299,url:"https://www.flipkart.com/search?q=instant+pot+duo",emoji:"🔵",color:"#2874f0",delivery:"₹49, 3 days",trusted:true},{name:"JioMart",price:7599,url:"https://www.jiomart.com/search/instant%20pot",emoji:"🔷",color:"#0066cc",delivery:"Free, 4 days",trusted:true}]
+    highlights: ["7-in-1 multi-cooker","70% faster cooking","6-litre capacity","14 smart programmes","10+ safety features"],
+    description: "The Instant Pot Duo 7-in-1 — replace 7 appliances with one. Cook healthy meals up to 70% faster.",
+    specs: [{key:"Capacity",val:"6 Litres"},{key:"Power",val:"1000W"},{key:"Programmes",val:"14"},{key:"Material",val:"Stainless Steel"}],
+    userReviews: [{name:"Sunita R.",stars:5,date:"3 days ago",text:"Dal in 15 mins, biryani in 30. Amazing.",verified:true}],
+    platforms: [{name:"Shopora",price:6499,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:6999,url:"https://www.amazon.in/s?k=instant+pot+duo",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:7299,url:"https://www.flipkart.com/search?q=instant+pot+duo",emoji:"🔵",color:"#2874f0",delivery:"Free, 3 days",trusted:true}]
   },
   {
     id: 7,
     name: "Levi's 501 Original Jeans",
     brand: "Levi's",
     category: "Fashion",
-    image: "https://m.media-amazon.com/images/I/81sKAjvHoAL._UL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20Levi%27s%20Jeans/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/81sKAjvHoAL._UL1500_.jpg",
-      "https://m.media-amazon.com/images/I/91UfMvR5LkL._UL1500_.jpg",
-      "https://m.media-amazon.com/images/I/81bFqMFrGoL._UL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71d7rfSl2PL._UL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20Levi%27s%20Jeans/1.png",
+      "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20Levi%27s%20Jeans/2.png",
+      "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20Levi%27s%20Jeans/3.png",
+      "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20Levi%27s%20Jeans/4.png"
     ],
     price: 3499, was: 5999, off: 41, badge: "b-sale", rating: 4.6, reviews: 31000,
-    highlights: ["The original blue jean since 1873","100% cotton denim — gets better with every wash","Straight fit through thigh and leg","Button fly closure","Available in multiple washes and sizes"],
-    description: "The Levi's 501 Original is the jean that started it all. Born in 1873, it's the world's first blue jean and still one of the most iconic. Straight fit, button fly, and genuine denim — timeless style.",
-    specs: [{key:"Fit",val:"Original Straight"},{key:"Material",val:"100% Cotton"},{key:"Closure",val:"Button Fly"},{key:"Rise",val:"Mid Rise"},{key:"Sizes",val:"28×30 to 40×34"},{key:"Wash",val:"Multiple options"},{key:"Care",val:"Machine wash cold"}],
-    userReviews: [{name:"Riya S.",stars:5,date:"1 week ago",text:"Perfect fit. These jeans are timeless. Great quality for the price.",verified:true},{name:"Dev P.",stars:4,date:"2 weeks ago",text:"Good jeans. Delivery was super fast from Shopora.",verified:true},{name:"Pooja M.",stars:5,date:"1 month ago",text:"Love Levi's 501. This is my 3rd pair. Never disappoints.",verified:true}],
-    platforms: [{name:"Shopora",price:3499,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Myntra",price:3799,url:"https://www.myntra.com/levis+501+jeans",emoji:"🩷",color:"#ff3f6c",delivery:"Free, 3 days",trusted:true},{name:"Flipkart",price:3999,url:"https://www.flipkart.com/search?q=levis+501+jeans",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:4199,url:"https://www.amazon.in/s?k=levis+501+original+jeans",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Meesho",price:2999,url:"https://www.meesho.com/search?q=levis+501+jeans",emoji:"🩷",color:"#f43397",delivery:"₹99, 5 days",trusted:false}]
+    highlights: ["Original blue jean since 1873","100% cotton denim","Straight fit","Button fly closure","Multiple washes"],
+    description: "The Levi's 501 Original — the world's first blue jean. Timeless style since 1873.",
+    specs: [{key:"Fit",val:"Original Straight"},{key:"Material",val:"100% Cotton"},{key:"Closure",val:"Button Fly"},{key:"Rise",val:"Mid Rise"}],
+    userReviews: [{name:"Riya S.",stars:5,date:"1 week ago",text:"Perfect fit. These jeans are timeless.",verified:true}],
+    platforms: [{name:"Shopora",price:3499,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Myntra",price:3799,url:"https://www.myntra.com/levis+501+jeans",emoji:"🩷",color:"#ff3f6c",delivery:"Free, 3 days",trusted:true},{name:"Amazon",price:4199,url:"https://www.amazon.in/s?k=levis+501+jeans",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true}]
   },
   {
     id: 8,
     name: "boAt Airdopes 141",
     brand: "boAt",
     category: "Electronics",
-    image: "https://m.media-amazon.com/images/I/61FXQW3KmQL._SL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Max%20Silver/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/61FXQW3KmQL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61p5RlgmNpL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61GGJYIIFkL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/611aDiReXzL._SL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Max%20Silver/1.png",
+      "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Max%20Silver/2.png",
+      "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Max%20Silver/3.png",
+      "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20AirPods%20Max%20Silver/4.png"
     ],
     price: 1299, was: 2990, off: 56, badge: "b-sale", rating: 4.2, reviews: 89000,
-    highlights: ["42 hours total playback with charging case","BEAST Mode for ultra-low latency gaming","ENx Technology for clear calls","IPX4 water resistance","Instant voice assistant access"],
-    description: "boAt Airdopes 141 TWS earbuds deliver massive 42 hours of playback, BEAST Mode for gaming, and clear calling — all at an unbelievable price. India's most popular TWS earbuds.",
-    specs: [{key:"Driver",val:"8mm dynamic driver"},{key:"Battery",val:"42 hours total"},{key:"Earbud",val:"5 hours per charge"},{key:"Charging",val:"USB-C"},{key:"Connectivity",val:"Bluetooth 5.2"},{key:"Latency",val:"60ms BEAST Mode"},{key:"Water Resist",val:"IPX4"},{key:"Colours",val:"Active Black, Blue, White, Green"}],
-    userReviews: [{name:"Harsh B.",stars:4,date:"2 days ago",text:"Best budget earbuds in India. Sound is great for the price.",verified:true},{name:"Simran K.",stars:5,date:"1 week ago",text:"42 hours battery is no joke. Absolutely love these!",verified:true},{name:"Tarun V.",stars:4,date:"3 weeks ago",text:"Great for gaming. Low latency mode actually works.",verified:true}],
-    platforms: [{name:"Shopora",price:1299,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:1399,url:"https://www.amazon.in/s?k=boat+airdopes+141",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:1349,url:"https://www.flipkart.com/search?q=boat+airdopes+141",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true},{name:"Meesho",price:1199,url:"https://www.meesho.com/search?q=boat+airdopes+141",emoji:"🩷",color:"#f43397",delivery:"₹49, 5 days",trusted:false}]
+    highlights: ["42 hours playback","BEAST Mode gaming","ENx Technology calls","IPX4 water resistant","Voice assistant"],
+    description: "boAt Airdopes 141 — India's most popular TWS earbuds. 42 hours playback, BEAST Mode gaming.",
+    specs: [{key:"Battery",val:"42 hours total"},{key:"Charging",val:"USB-C"},{key:"Connectivity",val:"Bluetooth 5.2"},{key:"Latency",val:"60ms BEAST Mode"},{key:"Water Resist",val:"IPX4"}],
+    userReviews: [{name:"Simran K.",stars:5,date:"1 week ago",text:"42 hours battery is no joke!",verified:true}],
+    platforms: [{name:"Shopora",price:1299,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:1399,url:"https://www.amazon.in/s?k=boat+airdopes+141",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:1349,url:"https://www.flipkart.com/search?q=boat+airdopes+141",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true}]
   },
   {
     id: 9,
     name: "Maybelline Fit Me Foundation",
     brand: "Maybelline",
     category: "Beauty",
-    image: "https://m.media-amazon.com/images/I/51e8KFM469L._SL1000_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/51e8KFM469L._SL1000_.jpg",
-      "https://m.media-amazon.com/images/I/61eFT5C0kTL._SL1000_.jpg",
-      "https://m.media-amazon.com/images/I/71y3qQXPpNL._SL1000_.jpg",
-      "https://m.media-amazon.com/images/I/61qBm9LFKXL._SL1000_.jpg"
+      "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+      "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/2.png",
+      "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/3.png",
+      "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/4.png"
     ],
     price: 399, was: 599, off: 33, badge: "b-sale", rating: 4.4, reviews: 45000,
-    highlights: ["Natural finish foundation for normal to oily skin","SPF 18 sun protection","40 shades to match every skin tone","Lightweight, breathable formula","Dermatologist tested"],
-    description: "Maybelline Fit Me Foundation gives a natural, breathable coverage that matches your skin perfectly. With SPF 18 and 40 shades, it's India's most loved foundation for everyday wear.",
-    specs: [{key:"Finish",val:"Natural / Matte"},{key:"Coverage",val:"Light to Medium"},{key:"SPF",val:"18"},{key:"Skin Type",val:"Normal to Oily"},{key:"Volume",val:"30ml"},{key:"Shades",val:"40 shades"},{key:"Dermatologist",val:"Tested"}],
-    userReviews: [{name:"Priya K.",stars:5,date:"3 days ago",text:"Best drugstore foundation in India. Stays all day in Delhi heat!",verified:true},{name:"Aditi R.",stars:4,date:"1 week ago",text:"Great coverage, natural finish. Will buy again from Shopora.",verified:true},{name:"Shalini M.",stars:5,date:"2 weeks ago",text:"Perfect shade match. Lightweight and doesn't feel cakey.",verified:true}],
-    platforms: [{name:"Shopora",price:399,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Nykaa",price:429,url:"https://www.nykaa.com/search/result/?q=maybelline+fit+me+foundation",emoji:"🩷",color:"#fc2779",delivery:"Free, 3 days",trusted:true},{name:"Amazon",price:449,url:"https://www.amazon.in/s?k=maybelline+fit+me+foundation",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:459,url:"https://www.flipkart.com/search?q=maybelline+fit+me+foundation",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true}]
+    highlights: ["Natural finish","SPF 18","40 shades","Lightweight formula","Dermatologist tested"],
+    description: "Maybelline Fit Me Foundation — natural, breathable coverage. 40 shades for every skin tone.",
+    specs: [{key:"Finish",val:"Natural / Matte"},{key:"SPF",val:"18"},{key:"Volume",val:"30ml"},{key:"Shades",val:"40"}],
+    userReviews: [{name:"Priya K.",stars:5,date:"3 days ago",text:"Best foundation in India. Stays all day!",verified:true}],
+    platforms: [{name:"Shopora",price:399,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Nykaa",price:429,url:"https://www.nykaa.com/search/result/?q=maybelline+fit+me",emoji:"🩷",color:"#fc2779",delivery:"Free, 3 days",trusted:true},{name:"Amazon",price:449,url:"https://www.amazon.in/s?k=maybelline+fit+me+foundation",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true}]
   },
   {
     id: 10,
     name: "Tata Tea Gold",
     brand: "Tata",
     category: "Groceries",
-    image: "https://m.media-amazon.com/images/I/61jVgW6OWNL._SL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/groceries/Tea%20Bags/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/61jVgW6OWNL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71c3SWCT5CL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/61Qa4gT7CJL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71eWBzKWKGL._SL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/groceries/Tea%20Bags/1.png",
+      "https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/1.png",
+      "https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/1.png",
+      "https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/1.png"
     ],
     price: 299, was: 350, off: 14, badge: "b-fast", rating: 4.5, reviews: 120000,
-    highlights: ["Premium Assam & Darjeeling blend","Rich, aromatic flavour","500g pack — great value","No artificial flavours","India's most trusted tea brand"],
-    description: "Tata Tea Gold is a premium blend of Assam and Darjeeling teas, offering a rich, golden cup every morning. India's most trusted tea — now delivered in 10 minutes.",
-    specs: [{key:"Weight",val:"500g"},{key:"Type",val:"Black Tea"},{key:"Blend",val:"Assam + Darjeeling"},{key:"Form",val:"Loose Leaf"},{key:"Brand",val:"Tata Consumer Products"},{key:"Shelf Life",val:"24 months"}],
-    userReviews: [{name:"Ramesh P.",stars:5,date:"1 day ago",text:"Nothing beats Tata Gold in the morning. Perfect flavour every time.",verified:true},{name:"Geeta S.",stars:5,date:"3 days ago",text:"Best tea ever. The 10-min delivery from Shopora is amazing!",verified:true},{name:"Mohan K.",stars:4,date:"1 week ago",text:"Great quality and price. Fast delivery too.",verified:true}],
-    platforms: [{name:"Shopora",price:299,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Blinkit",price:310,url:"https://blinkit.com/s/?q=tata+tea+gold",emoji:"🟡",color:"#ffd000",delivery:"10 min",trusted:true},{name:"Zepto",price:315,url:"https://www.zepto.com/search?query=tata+tea+gold",emoji:"🟣",color:"#8b2cf5",delivery:"10 min",trusted:true},{name:"JioMart",price:320,url:"https://www.jiomart.com/search/tata+tea+gold",emoji:"🔷",color:"#0066cc",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:329,url:"https://www.amazon.in/s?k=tata+tea+gold",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true}]
+    highlights: ["Premium Assam & Darjeeling blend","Rich aromatic flavour","500g pack","No artificial flavours","India's most trusted tea"],
+    description: "Tata Tea Gold — premium Assam and Darjeeling blend. India's most trusted tea brand.",
+    specs: [{key:"Weight",val:"500g"},{key:"Type",val:"Black Tea"},{key:"Blend",val:"Assam + Darjeeling"},{key:"Shelf Life",val:"24 months"}],
+    userReviews: [{name:"Ramesh P.",stars:5,date:"1 day ago",text:"Nothing beats Tata Gold in the morning.",verified:true}],
+    platforms: [{name:"Shopora",price:299,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Blinkit",price:310,url:"https://blinkit.com/s/?q=tata+tea+gold",emoji:"🟡",color:"#ffd000",delivery:"10 min",trusted:true},{name:"Amazon",price:329,url:"https://www.amazon.in/s?k=tata+tea+gold",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true}]
   },
   {
     id: 11,
     name: "Yoga Mat Premium",
     brand: "Boldfit",
     category: "Sports",
-    image: "https://m.media-amazon.com/images/I/71fKfLAnAJL._SL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/sports-accessories/Yoga%20Mat/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/71fKfLAnAJL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/81lbVFgLc5L._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71TWcCEFb3L._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71u3GEBbFsL._SL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/sports-accessories/Yoga%20Mat/1.png",
+      "https://cdn.dummyjson.com/products/images/sports-accessories/Yoga%20Mat/2.png",
+      "https://cdn.dummyjson.com/products/images/sports-accessories/Yoga%20Mat/3.png",
+      "https://cdn.dummyjson.com/products/images/sports-accessories/Yoga%20Mat/4.png"
     ],
     price: 699, was: 1499, off: 53, badge: "b-sale", rating: 4.3, reviews: 28000,
-    highlights: ["6mm thick anti-slip surface","183cm x 61cm — full body coverage","Lightweight & easy to carry","Sweat resistant material","Ideal for yoga, pilates & stretching"],
-    description: "Boldfit Premium Yoga Mat gives you the perfect grip and cushioning for your daily yoga practice. Anti-slip, sweat resistant, and easy to clean — your ideal workout companion.",
-    specs: [{key:"Thickness",val:"6mm"},{key:"Size",val:"183cm x 61cm"},{key:"Material",val:"TPE / NBR Foam"},{key:"Weight",val:"900g"},{key:"Anti-Slip",val:"Yes"},{key:"Carry Strap",val:"Included"},{key:"Colours",val:"Multiple"}],
-    userReviews: [{name:"Anjali V.",stars:5,date:"2 days ago",text:"Great mat for the price. Non-slip surface is excellent.",verified:true},{name:"Rohan S.",stars:4,date:"1 week ago",text:"Good quality. Shopora delivered same day!",verified:true},{name:"Prerna M.",stars:4,date:"3 weeks ago",text:"Perfect for home yoga. Easy to roll and carry.",verified:true}],
-    platforms: [{name:"Shopora",price:699,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:799,url:"https://www.amazon.in/s?k=boldfit+yoga+mat",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:749,url:"https://www.flipkart.com/search?q=boldfit+yoga+mat",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true},{name:"Meesho",price:599,url:"https://www.meesho.com/search?q=yoga+mat",emoji:"🩷",color:"#f43397",delivery:"₹49, 5 days",trusted:false}]
+    highlights: ["6mm thick anti-slip","183cm x 61cm","Lightweight","Sweat resistant","For yoga & pilates"],
+    description: "Boldfit Premium Yoga Mat — anti-slip, sweat resistant. Your ideal workout companion.",
+    specs: [{key:"Thickness",val:"6mm"},{key:"Size",val:"183cm x 61cm"},{key:"Material",val:"TPE Foam"},{key:"Weight",val:"900g"},{key:"Anti-Slip",val:"Yes"}],
+    userReviews: [{name:"Anjali V.",stars:5,date:"2 days ago",text:"Great mat for the price. Non-slip is excellent.",verified:true}],
+    platforms: [{name:"Shopora",price:699,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:799,url:"https://www.amazon.in/s?k=boldfit+yoga+mat",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:749,url:"https://www.flipkart.com/search?q=boldfit+yoga+mat",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true}]
   },
   {
     id: 12,
     name: "Atomic Habits",
     brand: "James Clear",
     category: "Books",
-    image: "https://m.media-amazon.com/images/I/81wgcld4wxL._SL1500_.jpg",
+    image: "https://cdn.dummyjson.com/products/images/home-decoration/Book%20Shelf/1.png",
     thumbs: [
-      "https://m.media-amazon.com/images/I/81wgcld4wxL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/81YkqyaFVEL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/71RdCqGGBBL._SL1500_.jpg",
-      "https://m.media-amazon.com/images/I/81YkqyaFVEL._SL1500_.jpg"
+      "https://cdn.dummyjson.com/products/images/home-decoration/Book%20Shelf/1.png",
+      "https://cdn.dummyjson.com/products/images/home-decoration/Book%20Shelf/2.png",
+      "https://cdn.dummyjson.com/products/images/home-decoration/Book%20Shelf/3.png",
+      "https://cdn.dummyjson.com/products/images/home-decoration/Book%20Shelf/4.png"
     ],
     price: 399, was: 799, off: 50, badge: "b-sale", rating: 4.9, reviews: 95000,
-    highlights: ["#1 New York Times Bestseller","Over 15 million copies sold worldwide","Proven framework for building good habits","Easy to read — practical & actionable","Available in English & Hindi"],
-    description: "Atomic Habits by James Clear is the definitive guide to building good habits and breaking bad ones. With a proven framework and real-world examples, it's the most practical self-improvement book ever written.",
-    specs: [{key:"Author",val:"James Clear"},{key:"Pages",val:"320"},{key:"Language",val:"English"},{key:"Publisher",val:"Penguin Random House"},{key:"Edition",val:"Paperback"},{key:"ISBN",val:"978-0735211292"}],
-    userReviews: [{name:"Vikash T.",stars:5,date:"1 day ago",text:"Life changing book. Everyone must read this at least once.",verified:true},{name:"Shruti P.",stars:5,date:"4 days ago",text:"Best self-help book I've ever read. Got it cheapest on Shopora!",verified:true},{name:"Ankit M.",stars:5,date:"2 weeks ago",text:"Changed my daily routine completely. Highly recommended.",verified:true}],
-    platforms: [{name:"Shopora",price:399,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:449,url:"https://www.amazon.in/s?k=atomic+habits+james+clear",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:429,url:"https://www.flipkart.com/search?q=atomic+habits",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true}]
+    highlights: ["#1 NYT Bestseller","15 million copies sold","Build good habits","Practical & actionable","English & Hindi"],
+    description: "Atomic Habits by James Clear — the most practical self-improvement book ever written.",
+    specs: [{key:"Author",val:"James Clear"},{key:"Pages",val:"320"},{key:"Language",val:"English"},{key:"Publisher",val:"Penguin Random House"}],
+    userReviews: [{name:"Vikash T.",stars:5,date:"1 day ago",text:"Life changing book. Everyone must read this.",verified:true}],
+    platforms: [{name:"Shopora",price:399,url:"#",emoji:"🛍️",color:"#f97316",delivery:"Free, 2 days",trusted:true},{name:"Amazon",price:449,url:"https://www.amazon.in/s?k=atomic+habits",emoji:"🟠",color:"#f90",delivery:"Free, 1 day",trusted:true},{name:"Flipkart",price:429,url:"https://www.flipkart.com/search?q=atomic+habits",emoji:"🔵",color:"#2874f0",delivery:"Free, 2 days",trusted:true}]
   }
 ];
