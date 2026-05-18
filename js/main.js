@@ -139,7 +139,6 @@ function renderProducts(data, containerId) {
   }
 
   el.innerHTML = data.map(p => {
-    // Find best platform price
     const sorted = [...p.platforms].sort((a, b) => a.price - b.price);
     const best = sorted[0];
     const isBestShopora = best.name === "Shopora";
@@ -147,12 +146,9 @@ function renderProducts(data, containerId) {
     return `
       <div class="prod-card" onclick="goToProduct(${p.id})">
         <div class="prod-img">
-          <span class="prod-img-emoji">
-            <img src="${p.image}" alt="${p.name}"
-              style="width:85%;height:85%;object-fit:contain"
-              onerror="this.style.display='none';this.nextElementSibling.style.display='block'"/>
-            <span style="display:none;font-size:56px">${p.thumbs[0]}</span>
-          </span>
+          <img src="${p.image}" alt="${p.name}"
+            style="width:85%;height:85%;object-fit:contain;display:block"
+            onerror="this.src='https://placehold.co/400x400/f0f0f0/999999?text=${encodeURIComponent(p.name)}'"/>
           <span class="prod-badge ${p.badge}">
             ${p.badge === "b-hot"  ? "🔥 Hot"
             : p.badge === "b-new"  ? "✨ New"
