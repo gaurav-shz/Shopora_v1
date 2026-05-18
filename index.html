@@ -10,17 +10,17 @@
 </head>
 <body class="light-theme">
 
-    <!-- TOPBAR (Subtle Light Gray) -->
+    <!-- TOPBAR -->
     <div class="topbar">
         <span>🚀 Free delivery on orders above ₹499 | <b>10-min delivery</b> available in Delhi</span>
         <div class="topbar-links">
-            <a href="#">Sell on Shopora</a>
-            <a href="#">Track Order</a>
-            <a href="#">Help</a>
+            <a href="#" onclick="showToast('🛍️ Seller registration coming soon!')">Sell on Shopora</a>
+            <a href="#" onclick="showToast('📦 Order tracking coming soon!')">Track Order</a>
+            <a href="#" onclick="showToast('💬 Help & support coming soon!')">Help</a>
         </div>
     </div>
 
-    <!-- NAVBAR (Amazon/Flipkart Style White) -->
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">Sho<span>pora</span></div>
@@ -35,18 +35,19 @@
 
             <div class="search-wrap">
                 <input type="text" id="searchInput" placeholder="Search for products, brands and more"/>
-                <button class="search-btn"><i class='bx bx-search'></i></button>
+                <button class="search-btn" onclick="doSearch()"><i class='bx bx-search'></i></button>
             </div>
 
             <div class="nav-right">
-                <div class="nav-item dropdown">
+                <!-- ✅ FIXED: Login is now a real link -->
+                <a href="pages/login.html" class="nav-item">
                     <i class='bx bx-user'></i>
                     <span>Login</span>
-                </div>
-                <div class="nav-item">
+                </a>
+                <a href="#" class="nav-item" onclick="showToast('💛 Wishlist coming soon!')">
                     <i class='bx bx-heart'></i>
                     <span>Wishlist</span>
-                </div>
+                </a>
                 <a href="pages/cart.html" class="nav-item cart">
                     <i class='bx bx-cart'></i>
                     <span class="badge" id="cartCount">0</span>
@@ -56,45 +57,52 @@
         </div>
     </nav>
 
-    <!-- CATEGORY STRIP (White background, simple icons) -->
-    <div class="cat-strip" id="catStrip">
-        <!-- Will be populated by main.js -->
-    </div>
+    <!-- CATEGORY STRIP -->
+    <div class="cat-strip" id="catStrip"></div>
 
-    <!-- MAIN CONTENT WRAPPER -->
+    <!-- MAIN CONTENT -->
     <main class="container">
-        
-        <!-- HERO CAROUSEL / BANNER -->
+
+        <!-- HERO BANNER -->
         <section class="hero-banner">
             <div class="hero-content">
                 <h1>Big Billion Savings <br><span>Up to 80% Off</span></h1>
                 <p>Compare prices across Amazon, Flipkart & more instantly.</p>
-                <button class="btn-primary">Shop Deals</button>
+                <button class="btn-primary" onclick="document.getElementById('trendingGrid').scrollIntoView({behavior:'smooth'})">Shop Deals</button>
             </div>
             <div class="hero-image">
-                <!-- Placeholder for a clean product image -->
-                <img src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-1inch-naturaltitanium?wid=1000&fmt=p-jpg" alt="Hero">
+                <!-- ✅ FIXED: Using working image URL -->
+                <img src="https://m.media-amazon.com/images/I/81SigpJN1KL._SL1500_.jpg" alt="iPhone 15 Pro"/>
             </div>
         </section>
 
-        <!-- TRENDING PRODUCTS (The Grid we connected to MongoDB) -->
+        <!-- TRENDING PRODUCTS -->
         <section class="section">
             <div class="section-head">
                 <h2 class="section-title">Trending Products</h2>
                 <a href="pages/products.html" class="see-all">View All</a>
             </div>
-            <!-- This ID is what main.js looks for -->
-        <div class="prod-grid" id="trendingGrid"></div>    
+            <div class="prod-grid" id="trendingGrid"></div>
+        </section>
+
+        <!-- QUICK CATEGORIES -->
+        <section class="section" id="quickCatsSection">
+            <div class="section-head">
+                <h2 class="section-title">Shop by Category</h2>
+            </div>
+            <div class="quick-cats" id="quickCats"></div>
         </section>
 
         <!-- TRUST BAR -->
         <div class="platform-bar">
             <span class="platform-label">Real-time Price Comparison from:</span>
             <div class="platforms">
-                <span class="plat-tag">Amazon</span>
-                <span class="plat-tag">Flipkart</span>
-                <span class="plat-tag">Blinkit</span>
-                <span class="plat-tag">Zepto</span>
+                <span class="plat-tag">🟠 Amazon</span>
+                <span class="plat-tag">🔵 Flipkart</span>
+                <span class="plat-tag">🟡 Blinkit</span>
+                <span class="plat-tag">🟣 Zepto</span>
+                <span class="plat-tag">🩷 Myntra</span>
+                <span class="plat-tag">🩷 Nykaa</span>
             </div>
         </div>
 
@@ -105,21 +113,21 @@
         <div class="footer-top">
             <div class="footer-col">
                 <h4>About</h4>
-                <a href="#">Contact Us</a>
-                <a href="#">About Us</a>
-                <a href="#">Shopora Wholesale</a>
+                <a href="#" onclick="showToast('Coming soon!')">Contact Us</a>
+                <a href="#" onclick="showToast('Coming soon!')">About Us</a>
+                <a href="#" onclick="showToast('Coming soon!')">Shopora Wholesale</a>
             </div>
             <div class="footer-col">
                 <h4>Help</h4>
-                <a href="#">Payments</a>
-                <a href="#">Shipping</a>
-                <a href="#">Cancellation</a>
+                <a href="#" onclick="showToast('Coming soon!')">Payments</a>
+                <a href="#" onclick="showToast('Coming soon!')">Shipping</a>
+                <a href="#" onclick="showToast('Coming soon!')">Cancellation</a>
             </div>
             <div class="footer-col">
                 <h4>Consumer Policy</h4>
-                <a href="#">Return Policy</a>
-                <a href="#">Terms of Use</a>
-                <a href="#">Security</a>
+                <a href="#" onclick="showToast('Coming soon!')">Return Policy</a>
+                <a href="#" onclick="showToast('Coming soon!')">Terms of Use</a>
+                <a href="#" onclick="showToast('Coming soon!')">Security</a>
             </div>
         </div>
         <div class="footer-bottom">
@@ -129,5 +137,20 @@
 
     <script src="js/products-data.js"></script>
     <script src="js/main.js"></script>
+
+    <script>
+      // Search button click support (in addition to Enter key in main.js)
+      function doSearch() {
+        const q = document.getElementById("searchInput")?.value.trim().toLowerCase();
+        if (!q) return;
+        const results = PRODUCTS.filter(p =>
+          p.name.toLowerCase().includes(q) ||
+          p.brand.toLowerCase().includes(q) ||
+          p.category.toLowerCase().includes(q)
+        );
+        renderProducts(results.length ? results : PRODUCTS, "trendingGrid");
+        document.getElementById("trendingGrid")?.scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
 </body>
 </html>
